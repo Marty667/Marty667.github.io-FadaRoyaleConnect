@@ -1,13 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <title>Connect to Fada Royale Server</title>
-  <script>
-    window.location.href = "steam://connect/141.94.99.132:27021";
-  </script>
+  <meta charset="UTF-8">
+  <title>Fada Royale Connect</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .content {
+      padding-top: 20%;
+    }
+    a.button {
+      display: inline-block;
+      background: #ff4081;
+      padding: 15px 30px;
+      margin-top: 20px;
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
-  <p>If you are not redirected automatically, <a href="steam://connect/141.94.99.132:27021">click here to connect to the server</a>.</p>
+  <div class="content">
+    <h1>Rejoins Fada Royale</h1>
+    <p>Clique ici pour te connecter automatiquement</p>
+    <a class="button" href="steam://connect/141.94.99.132:27021">Se connecter au serveur</a>
+  </div>
 </body>
 </html>
